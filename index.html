@@ -6,25 +6,42 @@
     <title>Document</title>
 </head>
 <style>
+    body{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("fundo.png");
+        background-size: cover; /* A imagem cobre toda a tela */
+        background-repeat: no-repeat; /* Não repete a imagem */
+        background-position: center; /* Centraliza a imagem */
+        background-attachment: fixed; 
+    }
     #title{
         color: black;
+        font-size: 30px;
+        text-align: center;
     }
-    #fundo{
-        background-image: ;
+   
+    .foods{
+        color: black;
+        text-align: top;
+    }
+    img{
+        width: 400px;
+        height: 200px;
+    }
+    h2{
+        font-size: 25px;
+    
     }
 </style>
 <body>
     <div id="title">
         <h1>Receitas da Vovo</h1>
     </div>
-    <div id="fundo">
-        <img src="fundo.png" alt="">
-    </div>
     <div class="foods">
-        <h2>Picanha</h2>
-        <h3>Ingredientes</h3>
-        <p>Modo de preparo</p>
-        <img src="" alt="">
+            <h2>Picanha</h2>
+            <img src="picanha.jpg" alt="">
+            <h2>Ingredientes</h2>
+            <p>Modo de preparo</p>
     </div>
 </body>
 </html>
